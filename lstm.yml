@@ -4,7 +4,7 @@
   \ null\n      embeddings_initializer:\n        class_name: RandomUniform\n     \
   \   config: {maxval: 0.05, minval: -0.05, seed: null}\n      embeddings_regularizer:\
   \ null\n      input_dim: 8308\n      input_length: 100\n      mask_zero: true\n\
-  \      name: embedding_23\n      output_dim: 100\n      trainable: true\n  - class_name:\
+  \      name: embedding_5\n      output_dim: 100\n      trainable: true\n  - class_name:\
   \ LSTM\n    config:\n      activation: tanh\n      activity_regularizer: null\n\
   \      batch_input_shape: !!python/tuple [null, 8, 8308]\n      bias_constraint:\
   \ null\n      bias_initializer:\n        class_name: Zeros\n        config: {}\n\
@@ -12,7 +12,7 @@
   \ false\n      implementation: 1\n      kernel_constraint: null\n      kernel_initializer:\n\
   \        class_name: VarianceScaling\n        config: {distribution: uniform, mode:\
   \ fan_avg, scale: 1.0, seed: null}\n      kernel_regularizer: null\n      name:\
-  \ lstm_40\n      recurrent_activation: hard_sigmoid\n      recurrent_constraint:\
+  \ lstm_13\n      recurrent_activation: hard_sigmoid\n      recurrent_constraint:\
   \ null\n      recurrent_dropout: 0.0\n      recurrent_initializer:\n        class_name:\
   \ Orthogonal\n        config: {gain: 1.0, seed: null}\n      recurrent_regularizer:\
   \ null\n      return_sequences: true\n      return_state: false\n      stateful:\
@@ -24,7 +24,7 @@
   \     implementation: 1\n      kernel_constraint: null\n      kernel_initializer:\n\
   \        class_name: VarianceScaling\n        config: {distribution: uniform, mode:\
   \ fan_avg, scale: 1.0, seed: null}\n      kernel_regularizer: null\n      name:\
-  \ lstm_41\n      recurrent_activation: hard_sigmoid\n      recurrent_constraint:\
+  \ lstm_14\n      recurrent_activation: hard_sigmoid\n      recurrent_constraint:\
   \ null\n      recurrent_dropout: 0.0\n      recurrent_initializer:\n        class_name:\
   \ Orthogonal\n        config: {gain: 1.0, seed: null}\n      recurrent_regularizer:\
   \ null\n      return_sequences: true\n      return_state: false\n      stateful:\
@@ -36,7 +36,7 @@
   \     implementation: 1\n      kernel_constraint: null\n      kernel_initializer:\n\
   \        class_name: VarianceScaling\n        config: {distribution: uniform, mode:\
   \ fan_avg, scale: 1.0, seed: null}\n      kernel_regularizer: null\n      name:\
-  \ lstm_42\n      recurrent_activation: hard_sigmoid\n      recurrent_constraint:\
+  \ lstm_15\n      recurrent_activation: hard_sigmoid\n      recurrent_constraint:\
   \ null\n      recurrent_dropout: 0.0\n      recurrent_initializer:\n        class_name:\
   \ Orthogonal\n        config: {gain: 1.0, seed: null}\n      recurrent_regularizer:\
   \ null\n      return_sequences: false\n      return_state: false\n      stateful:\
@@ -47,5 +47,5 @@
   \      bias_regularizer: null\n      kernel_constraint: null\n      kernel_initializer:\n\
   \        class_name: VarianceScaling\n        config: {distribution: uniform, mode:\
   \ fan_avg, scale: 1.0, seed: null}\n      kernel_regularizer: null\n      name:\
-  \ dense_10\n      trainable: true\n      units: 1\n      use_bias: true\n  name:\
-  \ sequential_29\nkeras_version: 2.2.4\n"
+  \ dense_5\n      trainable: true\n      units: 1\n      use_bias: true\n  name:\
+  \ sequential_5\nkeras_version: 2.2.4\n"
